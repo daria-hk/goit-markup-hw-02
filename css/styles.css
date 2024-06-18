@@ -1,12 +1,17 @@
 :root {
   --blue-hover: #404bbf;
   --iris: #4d5ae5;
+  --dark: #2e2f42;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #000;
   line-height: 1.2;
+}
+
+li {
+  list-style: none;
 }
 
 .logo-web,
@@ -21,11 +26,17 @@ body {
   color: var(--iris);
 }
 
-.logo-studio {
+nav > .logo-studio {
   color: #000;
 }
 
 .hero {
+  background: var(--dark);
+}
+
+.hero,
+.team > h2,
+.portfolio > h2 {
   text-align: center;
 }
 
@@ -65,10 +76,26 @@ body {
   font-size: 56px;
   max-width: 496px;
   margin: 48px auto;
+  color: #fff;
 }
 
+.team {
+  background: #f4f4fd;
+}
 .goals-items > h3,
 .team > h3 {
   font-weight: 500;
   font-size: 20px;
+}
+
+footer {
+  background: var(--dark);
+}
+
+footer > .logo-studio {
+  color: #fff;
+}
+
+footer > p {
+  color: #fff;
 }
