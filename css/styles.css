@@ -1,0 +1,74 @@
+:root {
+  --blue-hover: #404bbf;
+  --iris: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  line-height: 1.2;
+}
+
+.logo-web,
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--iris);
+}
+
+.logo-studio {
+  color: #000;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-button {
+  background-color: var(--iris);
+  color: #fff;
+  padding: 32px;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  border: transparent;
+  line-height: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--blue-hover);
+}
+
+.contact-item > a,
+.nav-item > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-item > a:hover,
+.nav-item > a:hover {
+  color: var(--blue-hover);
+}
+
+.nav-item > a:focus {
+  color: var(--blue-hover);
+  text-decoration: underline;
+}
+
+.hero > h1 {
+  font-size: 56px;
+  max-width: 496px;
+  margin: 48px auto;
+}
+
+.goals-items > h3,
+.team > h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
