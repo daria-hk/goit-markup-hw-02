@@ -62,9 +62,6 @@ h3 {
 .hero-button {
   background-color: var(--iris);
   color: #fff;
-  padding: 16px 32px;
-  border-radius: 4px;
-  border: transparent;
   letter-spacing: 0.04em;
   cursor: pointer;
   font-weight: 500;
@@ -76,11 +73,13 @@ h3 {
   background-color: var(--blue-hover);
 }
 
+nav,
 .nav-list {
   font-weight: 500;
   color: #2e2f42;
 }
 
+address,
 .contact-item > a {
   color: #434455;
   font-style: normal;
@@ -116,6 +115,10 @@ h3 {
   background: #f4f4fd;
 }
 
+.team-list {
+  color: #fff;
+}
+
 footer {
   background: var(--dark);
 }
@@ -125,5 +128,5 @@ footer > .logo-studio {
 }
 
 footer > p {
-  color: #fff;
+  color: #f4f4fd;
 }
