@@ -81,7 +81,7 @@ li {
 }
 
 .address-section,
-.contact-item > a {
+.contact-item > .link {
   color: #434455;
   font-style: normal;
 }
@@ -91,9 +91,8 @@ li {
   text-decoration: none;
 }
 
-.contact-item > a:hover,
-.nav-item > a:hover,
-.nav-item > a:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
