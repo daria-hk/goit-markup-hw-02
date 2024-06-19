@@ -27,7 +27,7 @@ li {
   color: var(--iris);
 }
 
-.hero {
+.hero-class {
   background: var(--dark);
 }
 
@@ -48,13 +48,13 @@ li {
   font-size: 20px;
 }
 
-.hero,
-.team > .title-h2,
-.portfolio > .title-h2 {
+.hero-class,
+.team-class > .title-h2,
+.portfolio-class > .title-h2 {
   text-align: center;
 }
 
-.hero > .title-h1 {
+.hero-class > .title-h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -78,7 +78,7 @@ li {
   font-weight: 500;
 }
 
-address,
+.address-class,
 .contact-item > a {
   color: #434455;
   font-style: normal;
@@ -103,18 +103,18 @@ address,
   color: #434455;
 }
 
-.hero > .title-h1 {
+.hero-class > .title-h1 {
   font-size: 56px;
   max-width: 496px;
   margin: 48px auto;
   color: #fff;
 }
 
-.team {
+.team-class {
   background: #f4f4fd;
 }
 
-.team ul > li {
+.team-class ul > li {
   background-color: #fff;
 }
 
