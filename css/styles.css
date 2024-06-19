@@ -120,14 +120,14 @@ li {
   background-color: #fff;
 }
 
-.footer {
+.footer-class {
   background: var(--dark);
 }
 
-.footer > .logo-studio {
+.footer-class > .logo-studio {
   color: #fff;
 }
 
-.footer > .footer-info-item {
+.footer-info-item {
   color: #f4f4fd;
 }
