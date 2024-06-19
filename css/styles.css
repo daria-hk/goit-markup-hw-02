@@ -29,7 +29,7 @@ li {
   color: var(--iris);
 }
 
-.hero-class {
+.hero-section {
   background: var(--dark);
 }
 
@@ -50,13 +50,13 @@ li {
   font-size: 20px;
 }
 
-.hero-class,
-.team-class > .title-h2,
-.portfolio-class > .title-h2 {
+.hero-section,
+.team-section > .title-h2,
+.portfolio-section > .title-h2 {
   text-align: center;
 }
 
-.hero-class > .title-h1 {
+.hero-section > .title-h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -80,7 +80,7 @@ li {
   font-weight: 500;
 }
 
-.address-class,
+.address-section,
 .contact-item > a {
   color: #434455;
   font-style: normal;
@@ -92,12 +92,12 @@ li {
 }
 
 .contact-item > a:hover,
-.nav-item > a:hover {
+.nav-item > a:hover,
+.nav-item > a:focus {
   color: #404bbf;
 }
 
 .nav-item > a:focus {
-  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -105,26 +105,26 @@ li {
   color: #434455;
 }
 
-.hero-class > .title-h1 {
+.hero-section > .title-h1 {
   font-size: 56px;
   max-width: 496px;
   margin: 48px auto;
   color: #fff;
 }
 
-.team-class {
+.team-section {
   background: #f4f4fd;
 }
 
-.team-class ul > li {
+.team-section ul > li {
   background-color: #fff;
 }
 
-.footer-class {
+.footer-section {
   background: var(--dark);
 }
 
-.footer-class > .logo-studio {
+.footer-section > .logo-studio {
   color: #fff;
 }
 
