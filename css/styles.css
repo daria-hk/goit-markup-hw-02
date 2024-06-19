@@ -33,13 +33,19 @@ li {
 
 h2 {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--dark);
+  text-transform: capitalize;
 }
 
 h3 {
   line-height: 1.2;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .hero,
@@ -95,6 +101,10 @@ h3 {
   text-decoration: underline;
 }
 
+.info-item {
+  color: #434455;
+}
+
 .hero > h1 {
   font-size: 56px;
   max-width: 496px;
@@ -104,11 +114,6 @@ h3 {
 
 .team {
   background: #f4f4fd;
-}
-.goals-items > h3,
-.team > h3 {
-  font-weight: 500;
-  font-size: 20px;
 }
 
 footer {
