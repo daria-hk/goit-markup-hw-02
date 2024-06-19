@@ -73,10 +73,9 @@ h3 {
   background-color: var(--blue-hover);
 }
 
-nav,
-.nav-list {
-  font-weight: 500;
+.navigation {
   color: #2e2f42;
+  font-weight: 500;
 }
 
 address,
@@ -115,8 +114,8 @@ address,
   background: #f4f4fd;
 }
 
-.team-list {
-  color: #fff;
+.team ul > li {
+  background-color: #fff;
 }
 
 footer {
