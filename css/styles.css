@@ -31,7 +31,7 @@ li {
   background: var(--dark);
 }
 
-h2 {
+.title-h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -39,7 +39,7 @@ h2 {
   text-transform: capitalize;
 }
 
-h3 {
+.title-h3 {
   line-height: 1.2;
   text-transform: capitalize;
   letter-spacing: 0.02em;
@@ -49,12 +49,12 @@ h3 {
 }
 
 .hero,
-.team > h2,
-.portfolio > h2 {
+.team > .title-h2,
+.portfolio > .title-h2 {
   text-align: center;
 }
 
-.hero > h1 {
+.hero > .title-h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -95,7 +95,7 @@ address,
 }
 
 .nav-item > a:focus {
-  color: var(--blue-hover);
+  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -103,7 +103,7 @@ address,
   color: #434455;
 }
 
-.hero > h1 {
+.hero > .title-h1 {
   font-size: 56px;
   max-width: 496px;
   margin: 48px auto;
@@ -118,14 +118,14 @@ address,
   background-color: #fff;
 }
 
-footer {
+.footer {
   background: var(--dark);
 }
 
-footer > .logo-studio {
+.footer > .logo-studio {
   color: #fff;
 }
 
-footer > p {
+.footer > .footer-info-item {
   color: #f4f4fd;
 }
