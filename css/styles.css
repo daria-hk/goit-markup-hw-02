@@ -75,7 +75,7 @@ li {
   background-color: var(--blue-hover);
 }
 
-.navigation-class {
+.navigation-class .link {
   color: #2e2f42;
   font-weight: 500;
 }
@@ -95,10 +95,6 @@ li {
 .nav-item > a:hover,
 .nav-item > a:focus {
   color: #404bbf;
-}
-
-.nav-item > a:focus {
-  text-decoration: underline;
 }
 
 .info-item {
