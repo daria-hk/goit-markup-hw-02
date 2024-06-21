@@ -33,7 +33,7 @@ li {
   background: var(--dark);
 }
 
-.title-h2 {
+.heading-two {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -41,7 +41,7 @@ li {
   text-transform: capitalize;
 }
 
-.title-h3 {
+.heading-three {
   line-height: 1.2;
   text-transform: capitalize;
   letter-spacing: 0.02em;
@@ -51,12 +51,12 @@ li {
 }
 
 .hero-section,
-.team-section > .title-h2,
-.portfolio-section > .title-h2 {
+.team-section > .heading-two,
+.portfolio-section > .heading-two {
   text-align: center;
 }
 
-.hero-section > .title-h1 {
+.hero-section > .heading-one {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
@@ -100,7 +100,7 @@ li {
   color: #434455;
 }
 
-.hero-section > .title-h1 {
+.hero-section > .heading-one {
   font-size: 56px;
   max-width: 496px;
   margin: 48px auto;
